@@ -1,0 +1,325 @@
+
+askTypeCompletion at CompletionTests.scala(45,59)
+================================================================================
+[response] aksTypeCompletion at (45,59)
+retrieved 324 members
+[accessible:  true] `class WithFilterscala.collection.immutable.StringOps#WithFilter`
+[accessible:  true] `method !=(x$1: Any)Boolean`
+[accessible:  true] `method !=(x$1: AnyRef)Boolean`
+[accessible:  true] `method ##()Int`
+[accessible:  true] `method *(n: Int)String`
+[accessible:  true] `method +(other: String)String`
+[accessible:  true] `method +(x$1: Any)String`
+[accessible:  true] `method ++:[B >: Char, That](that: Traversable[B])(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method ++:[B >: Char, That](that: Traversable[B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method ++:[B >: Char, That](that: scala.collection.TraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method ++:[B >: Char, That](that: scala.collection.TraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method ++[B >: Char, That](that: scala.collection.GenTraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method ++[B >: Char, That](that: scala.collection.GenTraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method +:[B >: Char, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method +:[B >: Char, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method ->[B](y: B)(String, B)`
+[accessible:  true] `method /:[B](z: B)(op: (B, Char) => B)B`
+[accessible:  true] `method /:\[A1 >: Char](z: A1)(op: (A1, A1) => A1)A1`
+[accessible:  true] `method :+[B >: Char, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method :+[B >: Char, That](elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method :\[B](z: B)(op: (Char, B) => B)B`
+[accessible:  true] `method <(that: String)Boolean`
+[accessible:  true] `method <=(that: String)Boolean`
+[accessible:  true] `method ==(x$1: Any)Boolean`
+[accessible:  true] `method ==(x$1: AnyRef)Boolean`
+[accessible:  true] `method >(that: String)Boolean`
+[accessible:  true] `method >=(that: String)Boolean`
+[accessible:  true] `method addString(b: StringBuilder)StringBuilder`
+[accessible:  true] `method addString(b: StringBuilder, sep: String)StringBuilder`
+[accessible:  true] `method addString(b: StringBuilder, start: String, sep: String, end: String)StringBuilder`
+[accessible:  true] `method aggregate[B](z: B)(seqop: (B, Char) => B, combop: (B, B) => B)B`
+[accessible:  true] `method andThen[C](k: Char => C)PartialFunction[Int,C]`
+[accessible:  true] `method apply(index: Int)Char`
+[accessible:  true] `method applyOrElse[A1 <: Int, B1 >: Char](x: A1, default: A1 => B1)B1`
+[accessible:  true] `method asInstanceOf[T0]=> T0`
+[accessible:  true] `method canEqual(that: Any)Boolean`
+[accessible:  true] `method capitalize=> String`
+[accessible:  true] `method charAt(x$1: Int)Char`
+[accessible:  true] `method codePointAt(x$1: Int)Int`
+[accessible:  true] `method codePointBefore(x$1: Int)Int`
+[accessible:  true] `method codePointCount(x$1: Int, x$2: Int)Int`
+[accessible:  true] `method collectFirst[B](pf: PartialFunction[Char,B])Option[B]`
+[accessible:  true] `method collect[B, That](pf: PartialFunction[Char,B])(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method collect[B, That](pf: PartialFunction[Char,B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method combinations(n: Int)Iterator[String]`
+[accessible:  true] `method companion=> scala.collection.generic.GenericCompanion[scala.collection.immutable.IndexedSeq]`
+[accessible:  true] `method compare(other: String)Int`
+[accessible:  true] `method compareTo(x$1: String)Int`
+[accessible:  true] `method compareToIgnoreCase(x$1: String)Int`
+[accessible:  true] `method compose[A](g: A => Int)A => Char`
+[accessible:  true] `method concat(x$1: String)String`
+[accessible:  true] `method contains(elem: Any)Boolean`
+[accessible:  true] `method contains(x$1: CharSequence)Boolean`
+[accessible:  true] `method containsSlice[B](that: scala.collection.GenSeq[B])Boolean`
+[accessible:  true] `method contentEquals(x$1: CharSequence)Boolean`
+[accessible:  true] `method contentEquals(x$1: StringBuffer)Boolean`
+[accessible:  true] `method copyToArray[B >: Char](xs: Array[B])Unit`
+[accessible:  true] `method copyToArray[B >: Char](xs: Array[B], start: Int)Unit`
+[accessible:  true] `method copyToArray[B >: Char](xs: Array[B], start: Int, len: Int)Unit`
+[accessible:  true] `method copyToBuffer[B >: Char](dest: scala.collection.mutable.Buffer[B])Unit`
+[accessible:  true] `method corresponds[B](that: scala.collection.GenSeq[B])(p: (Char, B) => Boolean)Boolean`
+[accessible:  true] `method count(p: Char => Boolean)Int`
+[accessible:  true] `method diff[B >: Char](that: scala.collection.GenSeq[B])String`
+[accessible:  true] `method distinct=> String`
+[accessible:  true] `method drop(n: Int)String`
+[accessible:  true] `method dropRight(n: Int)String`
+[accessible:  true] `method dropWhile(p: Char => Boolean)String`
+[accessible:  true] `method endsWith(x$1: String)Boolean`
+[accessible:  true] `method endsWith[B](that: scala.collection.GenSeq[B])Boolean`
+[accessible:  true] `method ensuring(cond: Boolean)String`
+[accessible:  true] `method ensuring(cond: Boolean, msg: => Any)String`
+[accessible:  true] `method ensuring(cond: String => Boolean)String`
+[accessible:  true] `method ensuring(cond: String => Boolean, msg: => Any)String`
+[accessible:  true] `method eq(x$1: AnyRef)Boolean`
+[accessible:  true] `method equals(x$1: Any)Boolean`
+[accessible:  true] `method equalsIgnoreCase(x$1: String)Boolean`
+[accessible:  true] `method exists(p: Char => Boolean)Boolean`
+[accessible:  true] `method filter(p: Char => Boolean)String`
+[accessible:  true] `method filterNot(p: Char => Boolean)String`
+[accessible:  true] `method find(p: Char => Boolean)Option[Char]`
+[accessible:  true] `method flatMap[B, That](f: Char => scala.collection.GenTraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method flatMap[B, That](f: Char => scala.collection.GenTraversableOnce[B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method flatten[B](implicit asTraversable: Char => scala.collection.GenTraversableOnce[B])scala.collection.immutable.IndexedSeq[B]`
+[accessible:  true] `method foldLeft[B](z: B)(op: (B, Char) => B)B`
+[accessible:  true] `method foldRight[B](z: B)(op: (Char, B) => B)B`
+[accessible:  true] `method fold[A1 >: Char](z: A1)(op: (A1, A1) => A1)A1`
+[accessible:  true] `method forall(p: Char => Boolean)Boolean`
+[accessible:  true] `method foreach[U](f: Char => U)Unit`
+[accessible:  true] `method format(args: Any*)String`
+[accessible:  true] `method formatLocal(l: java.util.Locale, args: Any*)String`
+[accessible:  true] `method formatted(fmtstr: String)String`
+[accessible:  true] `method genericBuilder[B]=> scala.collection.mutable.Builder[B,scala.collection.immutable.IndexedSeq[B]]`
+[accessible:  true] `method getBytes()Array[Byte]`
+[accessible:  true] `method getBytes(x$1: Int, x$2: Int, x$3: Array[Byte], x$4: Int)Unit`
+[accessible:  true] `method getBytes(x$1: String)Array[Byte]`
+[accessible:  true] `method getBytes(x$1: java.nio.charset.Charset)Array[Byte]`
+[accessible:  true] `method getChars(x$1: Int, x$2: Int, x$3: Array[Char], x$4: Int)Unit`
+[accessible:  true] `method groupBy[K](f: Char => K)scala.collection.immutable.Map[K,String]`
+[accessible:  true] `method grouped(size: Int)Iterator[String]`
+[accessible:  true] `method hasDefiniteSize=> Boolean`
+[accessible:  true] `method hashCode()Int`
+[accessible:  true] `method head=> Char`
+[accessible:  true] `method headOption=> Option[Char]`
+[accessible:  true] `method indexOf(x$1: Int)Int`
+[accessible:  true] `method indexOf(x$1: Int, x$2: Int)Int`
+[accessible:  true] `method indexOf(x$1: String)Int`
+[accessible:  true] `method indexOf(x$1: String, x$2: Int)Int`
+[accessible:  true] `method indexOfSlice[B >: Char](that: scala.collection.GenSeq[B])Int`
+[accessible:  true] `method indexOfSlice[B >: Char](that: scala.collection.GenSeq[B], from: Int)Int`
+[accessible:  true] `method indexOf[B >: Char](elem: B)Int`
+[accessible:  true] `method indexOf[B >: Char](elem: B, from: Int)Int`
+[accessible:  true] `method indexWhere(p: Char => Boolean)Int`
+[accessible:  true] `method indexWhere(p: Char => Boolean, from: Int)Int`
+[accessible:  true] `method indices=> scala.collection.immutable.Range`
+[accessible:  true] `method init=> String`
+[accessible:  true] `method inits=> Iterator[String]`
+[accessible:  true] `method intern()String`
+[accessible:  true] `method intersect[B >: Char](that: scala.collection.GenSeq[B])String`
+[accessible:  true] `method isDefinedAt(idx: Int)Boolean`
+[accessible:  true] `method isEmpty()Boolean`
+[accessible:  true] `method isInstanceOf[T0]=> Boolean`
+[accessible:  true] `method isTraversableAgain=> Boolean`
+[accessible:  true] `method iterator=> Iterator[Char]`
+[accessible:  true] `method last=> Char`
+[accessible:  true] `method lastIndexOf(x$1: Int)Int`
+[accessible:  true] `method lastIndexOf(x$1: Int, x$2: Int)Int`
+[accessible:  true] `method lastIndexOf(x$1: String)Int`
+[accessible:  true] `method lastIndexOf(x$1: String, x$2: Int)Int`
+[accessible:  true] `method lastIndexOfSlice[B >: Char](that: scala.collection.GenSeq[B])Int`
+[accessible:  true] `method lastIndexOfSlice[B >: Char](that: scala.collection.GenSeq[B], end: Int)Int`
+[accessible:  true] `method lastIndexOf[B >: Char](elem: B)Int`
+[accessible:  true] `method lastIndexOf[B >: Char](elem: B, end: Int)Int`
+[accessible:  true] `method lastIndexWhere(p: Char => Boolean)Int`
+[accessible:  true] `method lastIndexWhere(p: Char => Boolean, end: Int)Int`
+[accessible:  true] `method lastOption=> Option[Char]`
+[accessible:  true] `method length()Int`
+[accessible:  true] `method lengthCompare(len: Int)Int`
+[accessible:  true] `method lift=> Int => Option[Char]`
+[accessible:  true] `method lines=> Iterator[String]`
+[accessible:  true] `method linesIterator=> Iterator[String]`
+[accessible:  true] `method linesWithSeparators=> Iterator[String]`
+[accessible:  true] `method map[B, That](f: Char => B)(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method map[B, That](f: Char => B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method matches(x$1: String)Boolean`
+[accessible:  true] `method maxBy[B](f: Char => B)(implicit cmp: Ordering[B])Char`
+[accessible:  true] `method max[B >: Char](implicit cmp: Ordering[B])Char`
+[accessible:  true] `method minBy[B](f: Char => B)(implicit cmp: Ordering[B])Char`
+[accessible:  true] `method min[B >: Char](implicit cmp: Ordering[B])Char`
+[accessible:  true] `method mkString(sep: String)String`
+[accessible:  true] `method mkString(start: String, sep: String, end: String)String`
+[accessible:  true] `method mkString=> String`
+[accessible:  true] `method ne(x$1: AnyRef)Boolean`
+[accessible:  true] `method nonEmpty=> Boolean`
+[accessible:  true] `method notify()Unit`
+[accessible:  true] `method notifyAll()Unit`
+[accessible:  true] `method offsetByCodePoints(x$1: Int, x$2: Int)Int`
+[accessible:  true] `method orElse[A1 <: Int, B1 >: Char](that: PartialFunction[A1,B1])PartialFunction[A1,B1]`
+[accessible:  true] `method padTo[B >: Char, That](len: Int, elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method padTo[B >: Char, That](len: Int, elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method par=> scala.collection.parallel.ParSeq[Char]`
+[accessible:  true] `method partition(p: Char => Boolean)(String, String)`
+[accessible:  true] `method patch[B >: Char, That](from: Int, patch: scala.collection.GenSeq[B], replaced: Int)(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method patch[B >: Char, That](from: Int, patch: scala.collection.GenSeq[B], replaced: Int)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method permutations=> Iterator[String]`
+[accessible:  true] `method prefixLength(p: Char => Boolean)Int`
+[accessible:  true] `method product[B >: Char](implicit num: Numeric[B])B`
+[accessible:  true] `method r(groupNames: String*)scala.util.matching.Regex`
+[accessible:  true] `method r=> scala.util.matching.Regex`
+[accessible:  true] `method reduceLeftOption[B >: Char](op: (B, Char) => B)Option[B]`
+[accessible:  true] `method reduceLeft[B >: Char](op: (B, Char) => B)B`
+[accessible:  true] `method reduceOption[A1 >: Char](op: (A1, A1) => A1)Option[A1]`
+[accessible:  true] `method reduceRightOption[B >: Char](op: (Char, B) => B)Option[B]`
+[accessible:  true] `method reduceRight[B >: Char](op: (Char, B) => B)B`
+[accessible:  true] `method reduce[A1 >: Char](op: (A1, A1) => A1)A1`
+[accessible:  true] `method regionMatches(x$1: Boolean, x$2: Int, x$3: String, x$4: Int, x$5: Int)Boolean`
+[accessible:  true] `method regionMatches(x$1: Int, x$2: String, x$3: Int, x$4: Int)Boolean`
+[accessible:  true] `method replace(x$1: Char, x$2: Char)String`
+[accessible:  true] `method replace(x$1: CharSequence, x$2: CharSequence)String`
+[accessible:  true] `method replaceAll(x$1: String, x$2: String)String`
+[accessible:  true] `method replaceAllLiterally(literal: String, replacement: String)String`
+[accessible:  true] `method replaceFirst(x$1: String, x$2: String)String`
+[accessible:  true] `method repr=> scala.collection.immutable.WrappedString`
+[accessible:  true] `method reverse=> String`
+[accessible:  true] `method reverseIterator=> Iterator[Char]`
+[accessible:  true] `method reverseMap[B, That](f: Char => B)(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method reverseMap[B, That](f: Char => B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method runWith[U](action: Char => U)Int => Boolean`
+[accessible:  true] `method sameElements[B >: Char](that: scala.collection.GenIterable[B])Boolean`
+[accessible:  true] `method scanLeft[B, That](z: B)(op: (B, Char) => B)(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method scanLeft[B, That](z: B)(op: (B, Char) => B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method scanRight[B, That](z: B)(op: (Char, B) => B)(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method scanRight[B, That](z: B)(op: (Char, B) => B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method scan[B >: Char, That](z: B)(op: (B, B) => B)(implicit cbf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method scan[B >: Char, That](z: B)(op: (B, B) => B)(implicit cbf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method segmentLength(p: Char => Boolean, from: Int)Int`
+[accessible:  true] `method seq=> scala.collection.immutable.WrappedString`
+[accessible:  true] `method size=> Int`
+[accessible:  true] `method slice(from: Int, until: Int)String`
+[accessible:  true] `method sliceWithKnownBound(from: Int, until: Int)String`
+[accessible:  true] `method sliceWithKnownDelta(from: Int, until: Int, delta: Int)String`
+[accessible:  true] `method sliding(size: Int)Iterator[String]`
+[accessible:  true] `method sliding(size: Int, step: Int)Iterator[String]`
+[accessible:  true] `method sortBy[B](f: Char => B)(implicit ord: scala.math.Ordering[B])String`
+[accessible:  true] `method sortWith(lt: (Char, Char) => Boolean)String`
+[accessible:  true] `method sorted[B >: Char](implicit ord: scala.math.Ordering[B])String`
+[accessible:  true] `method span(p: Char => Boolean)(String, String)`
+[accessible:  true] `method split(separator: Char)Array[String]`
+[accessible:  true] `method split(separators: Array[Char])Array[String]`
+[accessible:  true] `method split(x$1: String)Array[String]`
+[accessible:  true] `method split(x$1: String, x$2: Int)Array[String]`
+[accessible:  true] `method splitAt(n: Int)(String, String)`
+[accessible:  true] `method startsWith(x$1: String)Boolean`
+[accessible:  true] `method startsWith(x$1: String, x$2: Int)Boolean`
+[accessible:  true] `method startsWith[B](that: scala.collection.GenSeq[B])Boolean`
+[accessible:  true] `method startsWith[B](that: scala.collection.GenSeq[B], offset: Int)Boolean`
+[accessible:  true] `method stringPrefix=> String`
+[accessible:  true] `method stripLineEnd=> String`
+[accessible:  true] `method stripMargin(marginChar: Char)String`
+[accessible:  true] `method stripMargin=> String`
+[accessible:  true] `method stripPrefix(prefix: String)String`
+[accessible:  true] `method stripSuffix(suffix: String)String`
+[accessible:  true] `method subSequence(x$1: Int, x$2: Int)CharSequence`
+[accessible:  true] `method substring(x$1: Int)String`
+[accessible:  true] `method substring(x$1: Int, x$2: Int)String`
+[accessible:  true] `method sum[B >: Char](implicit num: Numeric[B])B`
+[accessible:  true] `method synchronized[T0](x$1: T0)T0`
+[accessible:  true] `method tail=> String`
+[accessible:  true] `method tails=> Iterator[String]`
+[accessible:  true] `method take(n: Int)String`
+[accessible:  true] `method takeRight(n: Int)String`
+[accessible:  true] `method takeWhile(p: Char => Boolean)String`
+[accessible:  true] `method toArray[B >: Char](implicit evidence$1: scala.reflect.ClassTag[B])Array[B]`
+[accessible:  true] `method toBoolean=> Boolean`
+[accessible:  true] `method toBuffer[A1 >: Char]=> scala.collection.mutable.Buffer[A1]`
+[accessible:  true] `method toByte=> Byte`
+[accessible:  true] `method toCharArray()Array[Char]`
+[accessible:  true] `method toDouble=> Double`
+[accessible:  true] `method toFloat=> Float`
+[accessible:  true] `method toIndexedSeq=> scala.collection.immutable.IndexedSeq[Char]`
+[accessible:  true] `method toInt=> Int`
+[accessible:  true] `method toIterable=> Iterable[Char]`
+[accessible:  true] `method toIterator=> Iterator[Char]`
+[accessible:  true] `method toList=> List[Char]`
+[accessible:  true] `method toLong=> Long`
+[accessible:  true] `method toLowerCase()String`
+[accessible:  true] `method toLowerCase(x$1: java.util.Locale)String`
+[accessible:  true] `method toMap[T, U](implicit ev: <:<[Char,(T, U)])scala.collection.immutable.Map[T,U]`
+[accessible:  true] `method toSeq=> Seq[Char]`
+[accessible:  true] `method toSet[B >: Char]=> scala.collection.immutable.Set[B]`
+[accessible:  true] `method toShort=> Short`
+[accessible:  true] `method toStream=> scala.collection.immutable.Stream[Char]`
+[accessible:  true] `method toString()String`
+[accessible:  true] `method toTraversable=> Traversable[Char]`
+[accessible:  true] `method toUpperCase()String`
+[accessible:  true] `method toUpperCase(x$1: java.util.Locale)String`
+[accessible:  true] `method toVector=> Vector[Char]`
+[accessible:  true] `method to[Col[_]](implicit cbf: scala.collection.generic.CanBuildFrom[Nothing,Char,Col[Char]])Col[Char]`
+[accessible:  true] `method transpose[B](implicit asTraversable: Char => scala.collection.GenTraversableOnce[B])scala.collection.immutable.IndexedSeq[scala.collection.immutable.IndexedSeq[B]]`
+[accessible:  true] `method trim()String`
+[accessible:  true] `method union[B >: Char, That](that: scala.collection.GenSeq[B])(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method union[B >: Char, That](that: scala.collection.GenSeq[B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method unzip3[A1, A2, A3](implicit asTriple: Char => (A1, A2, A3))(scala.collection.immutable.IndexedSeq[A1], scala.collection.immutable.IndexedSeq[A2], scala.collection.immutable.IndexedSeq[A3])`
+[accessible:  true] `method unzip[A1, A2](implicit asPair: Char => (A1, A2))(scala.collection.immutable.IndexedSeq[A1], scala.collection.immutable.IndexedSeq[A2])`
+[accessible:  true] `method updated[B >: Char, That](index: Int, elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[String,B,That])That`
+[accessible:  true] `method updated[B >: Char, That](index: Int, elem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,B,That])That`
+[accessible:  true] `method view(from: Int, until: Int)scala.collection.SeqView[Char,String]`
+[accessible:  true] `method view=> scala.collection.SeqView[Char,String]`
+[accessible:  true] `method wait()Unit`
+[accessible:  true] `method wait(x$1: Long)Unit`
+[accessible:  true] `method wait(x$1: Long, x$2: Int)Unit`
+[accessible:  true] `method withFilter(p: Char => Boolean)scala.collection.generic.FilterMonadic[Char,String]`
+[accessible:  true] `method x=> String`
+[accessible:  true] `method zipAll[B, A1 >: Char, That](that: scala.collection.GenIterable[B], thisElem: A1, thatElem: B)(implicit bf: scala.collection.generic.CanBuildFrom[String,(A1, B),That])That`
+[accessible:  true] `method zipAll[B, A1 >: Char, That](that: scala.collection.GenIterable[B], thisElem: A1, thatElem: B)(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,(A1, B),That])That`
+[accessible:  true] `method zipWithIndex[A1 >: Char, That](implicit bf: scala.collection.generic.CanBuildFrom[String,(A1, Int),That])That`
+[accessible:  true] `method zipWithIndex[A1 >: Char, That](implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,(A1, Int),That])That`
+[accessible:  true] `method zip[A1 >: Char, B, That](that: scala.collection.GenIterable[B])(implicit bf: scala.collection.generic.CanBuildFrom[String,(A1, B),That])That`
+[accessible:  true] `method zip[A1 >: Char, B, That](that: scala.collection.GenIterable[B])(implicit bf: scala.collection.generic.CanBuildFrom[scala.collection.immutable.WrappedString,(A1, B),That])That`
+[accessible:  true] `method →[B](y: B)(String, B)`
+[accessible:  true] `value __leftOfArrowString`
+[accessible:  true] `value __resultOfEnsuringString`
+[accessible:  true] `value reprString`
+[accessible:  true] `value selfAny`
+[accessible: false] `class CombinationsItrscala.collection.immutable.StringOps#CombinationsItr`
+[accessible: false] `class Elementsscala.collection.immutable.StringOps#Elements`
+[accessible: false] `class PermutationsItrscala.collection.immutable.StringOps#PermutationsItr`
+[accessible: false] `method clone()Object`
+[accessible: false] `method escape(ch: Char)String`
+[accessible: false] `method finalize()Unit`
+[accessible: false] `method foldl[B](start: Int, end: Int, z: B, op: (B, Char) => B)B`
+[accessible: false] `method foldr[B](start: Int, end: Int, z: B, op: (Char, B) => B)B`
+[accessible: false] `method getChars(x$1: Array[Char], x$2: Int)Unit`
+[accessible: false] `method isLineBreak(c: Char)Boolean`
+[accessible: false] `method iterateUntilEmpty(f: Traversable[Char] => Traversable[Char])Iterator[String]`
+[accessible: false] `method negLength(n: Int)Int`
+[accessible: false] `method newBuilder=> StringBuilder`
+[accessible: false] `method occCounts[B](sq: Seq[B])scala.collection.mutable.Map[B,Int]`
+[accessible: false] `method parCombiner=> scala.collection.parallel.Combiner[Char,scala.collection.parallel.ParSeq[Char]]`
+[accessible: false] `method parseBoolean(s: String)Boolean`
+[accessible: false] `method reversed=> List[Char]`
+[accessible: false] `method sequential=> scala.collection.TraversableOnce[Char]`
+[accessible: false] `method thisCollection=> scala.collection.immutable.WrappedString`
+[accessible: false] `method toCollection(repr: String)scala.collection.immutable.WrappedString`
+[accessible: false] `method toCollection(repr: scala.collection.immutable.WrappedString)scala.collection.immutable.WrappedString`
+[accessible: false] `method unwrapArg(arg: Any)AnyRef`
+[accessible: false] `type SelfString`
+================================================================================
+
+askType at CompletionTests.scala(20,1)
+================================================================================
+[response] askTypeAt at (20,1)
+<error: <none>> {
+  def <init>(): scala.tools.eclipse.completion.CompletionTests.type = {
+    CompletionTests.super.<init>("completion");
+    ()
+  };
+  <empty>
+}
+================================================================================
+NPE 1001349 OK
