@@ -1013,6 +1013,16 @@ trait Trees extends api.Trees { self: SymbolTable =>
       ModuleDef(Modifiers(sym.flags), sym.name.toTermName, impl) setSymbol sym
     }
 
+  def ValDef(sym: Symbol, rhs: Tree): ValDef =
+    atPos(sym.pos) {
+      ValDef(Modifiers(sym.flags), sym.name.toTermName,
+             TypeTree(sym.tpe) setPos sym.pos.focus,
+             rhs) setSymbol sym
+    }
+
+  def ValDef(sym: Symbol): ValDef = ValDef(sym, EmptyTree)
+
+
   trait CannotHaveAttrs extends Tree {
     override def canHaveAttrs = false
 

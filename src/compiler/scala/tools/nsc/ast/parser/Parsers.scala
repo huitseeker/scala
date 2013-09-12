@@ -2765,7 +2765,7 @@ self =>
      */
     def templateParents(): List[Tree] = {
       val parents = new ListBuffer[Tree]
-      def readAppliedParent(): Tree = {
+      def readAppliedParent() = {
         val start = in.offset
         val parent = startAnnotType()
         val argss = if (in.token == LPAREN) multipleArgumentExprs() else Nil
