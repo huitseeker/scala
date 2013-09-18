@@ -2103,7 +2103,7 @@ trait Typers extends Adaptations with Tags with TypersTracking with PatternTyper
         case PolyType(_, restpe)        => paramssTypes(restpe)
         case _                          => Nil
       }
-      def resultType = meth.tpe.finalResultType
+      def resultType = meth.tpe_*.finalResultType
       def nthParamPos(n1: Int, n2: Int) =
         try ddef.vparamss(n1)(n2).pos catch { case _: IndexOutOfBoundsException => meth.pos }
 
