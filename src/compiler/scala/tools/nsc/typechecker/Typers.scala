@@ -4871,7 +4871,7 @@ trait Typers extends Adaptations with Tags with TypersTracking with PatternTyper
         // Unfortunately implicit not found strings looks for all the world like
         // missing interpolators.
         def isArgToImplicitNotFound = context.enclosingApply.tree match {
-          case Apply(fn, _) => fn.symbol.enclClass == ImplicitNotFoundClass
+          case Apply(fn, _) => fn.symbol != null && fn.symbol.enclClass == ImplicitNotFoundClass
           case _            => false
         }
         tree.value match {
