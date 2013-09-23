@@ -28,7 +28,7 @@ trait ExprTyper {
         case IR.Success =>
           val sym0 = symbolOfTerm(name)
           // drop NullaryMethodType
-          sym0.cloneSymbol setInfo exitingTyper(sym0.tpe_*.finalResultType)
+          sym0.cloneSymbol setInfo exitingTyper(sym0.info.finalResultType)
         case _          => NoSymbol
       }
     }

@@ -225,10 +225,9 @@ abstract class ExplicitOuter extends InfoTransform
      *
      * Will return `EmptyTree` if there is no outer accessor because of a premature self reference.
      */
-    protected def outerValue: Tree = outerParam match {
-      case NoSymbol   => outerSelect(gen.mkAttributedThis(currentClass))
-      case outerParam => gen.mkAttributedIdent(outerParam)
-    }
+    protected def outerValue: Tree =
+      if (outerParam != NoSymbol) ID(outerParam)
+      else outerSelect(THIS(currentClass))
 
     /** Select and apply outer accessor from 'base'
      *  The result is typed but not positioned.
@@ -354,7 +353,8 @@ abstract class ExplicitOuter extends InfoTransform
 
     /** The definition tree of the outer accessor of current class
      */
-    def outerFieldDef: Tree = ValDef(outerField(currentClass))
+    def outerFieldDef: Tree =
+      VAL(outerField(currentClass)) === EmptyTree
 
     /** The definition tree of the outer accessor of current class
      */

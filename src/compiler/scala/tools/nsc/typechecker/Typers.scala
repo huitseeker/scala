@@ -368,7 +368,7 @@ trait Typers extends Adaptations with Tags with TypersTracking with PatternTyper
           check(owner, scope, pt, tree setType tp1.typeSymbol.classBound)
         else if (owner == NoSymbol)
           tree setType packSymbols(hiddenSymbols.reverse, tp1)
-        else if (!isPastTyper) { // privates
+        else if (!phase.erasedTypes) { // privates
           val badSymbol = hiddenSymbols.head
           SymbolEscapesScopeError(tree, badSymbol)
         } else tree
@@ -2603,15 +2603,8 @@ trait Typers extends Adaptations with Tags with TypersTracking with PatternTyper
             default -> gen.scalaFunctionConstr(List(A1Tpt), B1Tpt)
           )
         }
-        def newParam(param: Symbol): ValDef = {
-          val vd              = ValDef(param, EmptyTree)
-          val tt @ TypeTree() = vd.tpt
-          tt setOriginal (originals(param) setPos param.pos.focus)
-          vd
-        }
-
-        val rhs    = methodBodyTyper.virtualizedMatch(match_, mode, B1.tpe)
-        val defdef = newDefDef(methodSym, rhs)(vparamss = mapParamss(methodSym)(newParam), tpt = TypeTree(B1.tpe))
+        val rhs = methodBodyTyper.virtualizedMatch(match_, mode, B1.tpe)
+        val defdef = DefDef(methodSym, Modifiers(methodSym.flags), originals, rhs)
 
         (defdef, matchResTp)
       }
