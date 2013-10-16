@@ -1,1 +1,2296 @@
+[running phase parser on doc.scala]
+[running phase namer on doc.scala]
+[running phase packageobjects on doc.scala]
+[running phase typer on doc.scala]
+[running phase patmat on doc.scala]
+[running phase superaccessors on doc.scala]
+[running phase extmethods on doc.scala]
+[running phase pickler on doc.scala]
+[running phase refchecks on doc.scala]
+[running phase uncurry on doc.scala]
+[running phase tailcalls on doc.scala]
+[running phase specialize on doc.scala]
+[running phase explicitouter on doc.scala]
+[running phase erasure on doc.scala]
+[running phase posterasure on doc.scala]
+[running phase lazyvals on doc.scala]
+[running phase lambdalift on doc.scala]
+[running phase constructors on doc.scala]
+[running phase flatten on doc.scala]
+[running phase mixin on doc.scala]
+[running phase cleanup on doc.scala]
+[running phase icode on doc.scala]
+warning: !!! PJUMP(method matchEnd3)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case5)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd3)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case5)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd3)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case5)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd3)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case5)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd7)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case9)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd7)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd7)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case10)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd7)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd7)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd7)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case11)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd7)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd7)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd7)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case12)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case5)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd3)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case8)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case8)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd5)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case7)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd5)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case8)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd5)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case9)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method case9)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+warning: !!! PJUMP(method matchEnd6)/scala.tools.nsc.backend.icode.GenICode$PJUMP is not a control flow instruction
+[running phase jvm on icode]
 reload: Base.scala, Class.scala, Derived.scala
+[] logger: class scala.tools.nsc.interactive.NullLogger$ writing to /home/huitseeker/Scala/scala
+[] classpath: merged classpath (directory classpath: /opt/java6/jre/lib/resources.jar
+directory classpath: /opt/java6/jre/lib/rt.jar
+directory classpath: /opt/java6/jre/lib/jsse.jar
+directory classpath: /opt/java6/jre/lib/jce.jar
+directory classpath: /opt/java6/jre/lib/charsets.jar
+directory classpath: /opt/java6/jre/lib/ext/localedata.jar
+directory classpath: /opt/java6/jre/lib/ext/dnsns.jar
+directory classpath: /opt/java6/jre/lib/ext/sunjce_provider.jar
+directory classpath: /opt/java6/jre/lib/ext/sunpkcs11.jar
+directory classpath: doc-presentation.obj
+directory classpath: /home/huitseeker/Scala/scala/build/pack/lib/scala-library.jar
+directory classpath: /home/huitseeker/Scala/scala/build/pack/lib/scala-reflect.jar
+directory classpath: /home/huitseeker/Scala/scala/build/pack/lib/scala-compiler.jar
+directory classpath: /home/huitseeker/Scala/scala/build/pack/lib/scalap.jar
+directory classpath: /home/huitseeker/Scala/scala/build/pack/lib/scala-actors.jar
+directory classpath: /home/huitseeker/.m2/repository/org/scala-lang/modules/scala-partest_2.11.0-M5/1.0-RC5/scala-partest_2.11.0-M5-1.0-RC5.jar
+directory classpath: /home/huitseeker/.m2/repository/org/apache/ant/ant/1.8.4/ant-1.8.4.jar
+directory classpath: /home/huitseeker/.m2/repository/org/apache/ant/ant-launcher/1.8.4/ant-launcher-1.8.4.jar
+directory classpath: /home/huitseeker/.m2/repository/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar
+directory classpath: /home/huitseeker/.m2/repository/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar
+directory classpath: /home/huitseeker/.m2/repository/org/scalacheck/scalacheck_2.11.0-M5/1.10.1/scalacheck_2.11.0-M5-1.10.1.jar
+directory classpath: /home/huitseeker/.m2/repository/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
+directory classpath: /home/huitseeker/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11.0-M5/1.0-RC2/scala-parser-combinators_2.11.0-M5-1.0-RC2.jar
+directory classpath: /home/huitseeker/.m2/repository/org/scala-lang/modules/scala-xml_2.11.0-M5/1.0-RC4/scala-xml_2.11.0-M5-1.0-RC4.jar
+directory classpath: /home/huitseeker/.m2/repository/org/scala-lang/scalap/2.11.0-M5/scalap-2.11.0-M5.jar
+directory classpath: /home/huitseeker/.m2/repository/org/scala-lang/modules/scala-xml_2.11.0-M4/1.0-RC3/scala-xml_2.11.0-M4-1.0-RC3.jar
+directory classpath: /home/huitseeker/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11.0-M4/1.0-RC1/scala-parser-combinators_2.11.0-M4-1.0-RC1.jar
+directory classpath: /home/huitseeker/Scala/scala/build/pack/lib/scala-partest-extras.jar
+directory classpath: /home/huitseeker/Scala/scala/build/pack/lib/scala-partest-javaagent.jar
+directory classpath: /home/huitseeker/Scala/scala/test/files/lib/annotations.jar
+directory classpath: /home/huitseeker/Scala/scala/test/files/lib/enums.jar
+directory classpath: /home/huitseeker/Scala/scala/test/files/lib/genericNest.jar
+directory classpath: /home/huitseeker/Scala/scala/test/files/lib/jsoup-1.3.1.jar
+directory classpath: /home/huitseeker/Scala/scala/test/files/lib/methvsfield.jar
+directory classpath: /home/huitseeker/Scala/scala/test/files/lib/nest.jar
+directory classpath: .)
+[] starting new runner thread
+[] some work at node 1 current = 1
+[] picked up work item at NoPosition: reload List(Base.scala, Class.scala, Derived.scala), delay = 516ms
+[][reload: List(Base.scala, Class.scala, Derived.scala)]
+[] added unit for doc/src/p/Base.scala
+[] added unit for doc/src/Class.scala
+[] added unit for doc/src/p/Derived.scala
+[] responded, delay = 11ms
+[] done with work item: reload List(Base.scala, Class.scala, Derived.scala)
+[] quitting work item: reload List(Base.scala, Class.scala, Derived.scala), delay = 0ms
+[][Starting new presentation compiler type checking pass]
+[] parsing: Base.scala
+[] [no position] :[running phase parser on Base.scala]
+[] some work at node 2 current = 2
+[] picked up work item at RangePosition(doc/src/p/Base.scala, 131, 135, 146): getParsedEntered Base.scala, keepLoaded = true, delay = 32ms
+[] parsing: Base.scala
+[] [no position] :[running phase parser on Base.scala]
+[] some work at node 3 current = 3
+[] picked up work item at RangePosition(doc/src/p/Base.scala, 131, 135, 146): getParsedEntered Class.scala, keepLoaded = true, delay = 3ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 89ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Base.scala]
+[] [no position] :[running phase packageobjects on Base.scala]
+[] responded, delay = 7ms
+[] done with work item: getParsedEntered Base.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Base.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Base.scala]
+[] [no position] :[running phase packageobjects on Base.scala]
+[] parsing: Derived.scala
+[] [no position] :[running phase parser on Derived.scala]
+[] some work at node 4 current = 4
+[] picked up work item at RangePosition(doc/src/p/Derived.scala, 93, 97, 105): getParsedEntered Derived.scala, keepLoaded = true, delay = 6ms
+[] parsing: Derived.scala
+[] responded, delay = 5ms
+[] done with work item: getParsedEntered Derived.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Derived.scala, keepLoaded = true, delay = 0ms
+[] type checking: Base.scala
+[] some work at node 6 current = 6
+[] picked up work item at RangePosition(doc/src/p/Base.scala, 8, 8, 9): reload List(Class.scala), delay = 13ms
+[][reload: List(Class.scala)]
+[] responded, delay = 2ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 7 current = 7
+[] picked up work item at RangePosition(doc/src/Class.scala, 87, 91, 99): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 10ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] parsing: Base.scala
+[] [no position] :[running phase parser on Base.scala]
+[] some work at node 9 current = 9
+[] ask started, delay = 4ms
+[] ask finished, delay = 0ms
+[] [no position] :[running phase namer on Base.scala]
+[] [no position] :[running phase packageobjects on Base.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 12 current = 12
+[] picked up work item at source-doc/src/Class.scala,line-10,offset=198: doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 21ms
+[][getDocComment class Class at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 62, 77, 197)
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 62, 77, 197)
+[] responded, delay = 9ms
+[] done with work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala))
+[] quitting work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 3ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 14 current = 14
+[] ask started, delay = 1ms
+[] ask finished, delay = 13ms
+[] some work at node 15 current = 15
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 2ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 16 current = 16
+[] picked up work item at RangePosition(doc/src/Class.scala, 112, 116, 124): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 4ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 18 current = 18
+[] ask started, delay = 5ms
+[] ask finished, delay = 0ms
+[] some work at node 20 current = 20
+[] picked up work item at source-doc/src/Class.scala,line-11,offset=223: doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 2ms
+[][getDocComment class Class at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 87, 102, 222)
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 87, 102, 222)
+[] responded, delay = 6ms
+[] done with work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala))
+[] quitting work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 3ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 22 current = 22
+[] ask started, delay = 2ms
+[] ask finished, delay = 2ms
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 2ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 24 current = 24
+[] picked up work item at RangePosition(doc/src/Class.scala, 124, 128, 136): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 5ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 26 current = 26
+[] ask started, delay = 4ms
+[] ask finished, delay = 0ms
+[] some work at node 27 current = 27
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 0ms
+[][getDocComment class Class at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 99, 114, 234)
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 99, 114, 234)
+[] responded, delay = 6ms
+[] done with work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala))
+[] quitting work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 2ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 29 current = 29
+[] ask started, delay = 1ms
+[] ask finished, delay = 2ms
+[] some work at node 30 current = 30
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 3ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 31 current = 31
+[] picked up work item at RangePosition(doc/src/Class.scala, 146, 150, 158): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 5ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 33 current = 33
+[] ask started, delay = 4ms
+[] ask finished, delay = 0ms
+[] some work at node 34 current = 34
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 0ms
+[][getDocComment class Class at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 121, 136, 256)
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 121, 136, 256)
+[] responded, delay = 17ms
+[] done with work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala))
+[] quitting work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 2ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 36 current = 36
+[] ask started, delay = 1ms
+[] ask finished, delay = 4ms
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 2ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 38 current = 38
+[] picked up work item at RangePosition(doc/src/Class.scala, 167, 171, 179): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 9ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 40 current = 40
+[] ask started, delay = 7ms
+[] ask finished, delay = 0ms
+[] some work at node 41 current = 41
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 0ms
+[][getDocComment class Class at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 142, 157, 277)
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 142, 157, 277)
+[] responded, delay = 8ms
+[] done with work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala))
+[] quitting work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 7ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 43 current = 43
+[] ask started, delay = 1ms
+[] ask finished, delay = 7ms
+[] some work at node 47 current = 47
+[] picked up work item at source-doc/src/Class.scala,line-6,offset=163: reload List(Class.scala), delay = 113ms
+[][reload: List(Class.scala)]
+[] responded, delay = 2ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 48 current = 48
+[] picked up work item at RangePosition(doc/src/Class.scala, 187, 191, 199): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 3ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 50 current = 50
+[] ask started, delay = 3ms
+[] ask finished, delay = 0ms
+[] some work at node 51 current = 51
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 0ms
+[][getDocComment class Class at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 162, 177, 297)
+[] mirror found for class Class: RangePosition(doc/src/Class.scala, 162, 177, 297)
+[] responded, delay = 5ms
+[] done with work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala))
+[] quitting work item: doc comment class Class in Class.scala with fragments:((class Class,Class.scala)), delay = 2ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 53 current = 53
+[] ask started, delay = 1ms
+[] ask finished, delay = 2ms
+[] some work at node 54 current = 54
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 2ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 55 current = 55
+[] picked up work item at RangePosition(doc/src/Class.scala, 87, 91, 99): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 4ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 57 current = 57
+[] ask started, delay = 4ms
+[] ask finished, delay = 1ms
+[] some work at node 58 current = 58
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 0ms
+[][getDocComment method Def at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 87, 91, 99)
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 87, 91, 99)
+[] responded, delay = 9ms
+[] done with work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala))
+[] quitting work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 2ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 60 current = 60
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 61 current = 61
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 2ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 62 current = 62
+[] picked up work item at RangePosition(doc/src/Class.scala, 112, 116, 124): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 3ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 64 current = 64
+[] ask started, delay = 3ms
+[] ask finished, delay = 1ms
+[] some work at node 65 current = 65
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 0ms
+[][getDocComment method Def at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 112, 116, 124)
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 112, 116, 124)
+[] responded, delay = 7ms
+[] done with work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala))
+[] quitting work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 67 current = 67
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 68 current = 68
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 69 current = 69
+[] picked up work item at RangePosition(doc/src/Class.scala, 124, 128, 136): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 71 current = 71
+[] ask started, delay = 2ms
+[] ask finished, delay = 1ms
+[] some work at node 72 current = 72
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 0ms
+[][getDocComment method Def at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 124, 128, 136)
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 124, 128, 136)
+[] responded, delay = 6ms
+[] done with work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala))
+[] quitting work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 2ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 74 current = 74
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 75 current = 75
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 76 current = 76
+[] picked up work item at RangePosition(doc/src/Class.scala, 146, 150, 158): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 3ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 78 current = 78
+[] ask started, delay = 3ms
+[] ask finished, delay = 1ms
+[] some work at node 79 current = 79
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 0ms
+[][getDocComment method Def at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 146, 150, 158)
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 146, 150, 158)
+[] responded, delay = 6ms
+[] done with work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala))
+[] quitting work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 2ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 81 current = 81
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 82 current = 82
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 83 current = 83
+[] picked up work item at RangePosition(doc/src/Class.scala, 167, 171, 179): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 3ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 85 current = 85
+[] ask started, delay = 5ms
+[] ask finished, delay = 1ms
+[] some work at node 86 current = 86
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 0ms
+[][getDocComment method Def at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 167, 171, 179)
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 167, 171, 179)
+[] responded, delay = 6ms
+[] done with work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala))
+[] quitting work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 2ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 88 current = 88
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 89 current = 89
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 90 current = 90
+[] picked up work item at RangePosition(doc/src/Class.scala, 187, 191, 199): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 92 current = 92
+[] ask started, delay = 2ms
+[] ask finished, delay = 0ms
+[] some work at node 93 current = 93
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 0ms
+[][getDocComment method Def at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 187, 191, 199)
+[] mirror found for method Def: RangePosition(doc/src/Class.scala, 187, 191, 199)
+[] responded, delay = 4ms
+[] done with work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala))
+[] quitting work item: doc comment method Def in Class.scala with fragments:((method Def,Class.scala)), delay = 2ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 95 current = 95
+[] ask started, delay = 0ms
+[] ask finished, delay = 2ms
+[] some work at node 97 current = 97
+[] picked up work item at source-doc/src/Class.scala,line-15,offset=298: reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 98 current = 98
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 100 current = 100
+[] ask started, delay = 2ms
+[] ask finished, delay = 1ms
+[] some work at node 101 current = 101
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 0ms
+[][getDocComment value Val  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 106, 106, 114)
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 106, 106, 114)
+[] responded, delay = 4ms
+[] done with work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala))
+[] quitting work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 103 current = 103
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 104 current = 104
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 105 current = 105
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 107 current = 107
+[] ask started, delay = 2ms
+[] ask finished, delay = 1ms
+[] some work at node 108 current = 108
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 0ms
+[][getDocComment value Val  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 131, 131, 139)
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 131, 131, 139)
+[] responded, delay = 4ms
+[] done with work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala))
+[] quitting work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 110 current = 110
+[] ask started, delay = 0ms
+[] ask finished, delay = 1ms
+[] some work at node 111 current = 111
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 112 current = 112
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 3ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 114 current = 114
+[] ask started, delay = 3ms
+[] ask finished, delay = 1ms
+[] some work at node 115 current = 115
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 0ms
+[][getDocComment value Val  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 143, 143, 151)
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 143, 143, 151)
+[] responded, delay = 6ms
+[] done with work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala))
+[] quitting work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 117 current = 117
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 118 current = 118
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 119 current = 119
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 9ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 121 current = 121
+[] ask started, delay = 8ms
+[] ask finished, delay = 1ms
+[] some work at node 125 current = 125
+[] picked up work item at source-doc/src/Class.scala,line-1,offset=21: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 6ms
+[][getDocComment value Val  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 165, 165, 173)
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 165, 165, 173)
+[] responded, delay = 6ms
+[] done with work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala))
+[] quitting work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 127 current = 127
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 128 current = 128
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 129 current = 129
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 4ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 131 current = 131
+[] ask started, delay = 2ms
+[] ask finished, delay = 1ms
+[] some work at node 132 current = 132
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 0ms
+[][getDocComment value Val  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 186, 186, 194)
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 186, 186, 194)
+[] responded, delay = 6ms
+[] done with work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala))
+[] quitting work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 134 current = 134
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 135 current = 135
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 136 current = 136
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 138 current = 138
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 139 current = 139
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 0ms
+[][getDocComment value Val  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 206, 206, 214)
+[] mirror found for value Val : RangePosition(doc/src/Class.scala, 206, 206, 214)
+[] responded, delay = 4ms
+[] done with work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala))
+[] quitting work item: doc comment value Val  in Class.scala with fragments:((value Val ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 141 current = 141
+[] ask started, delay = 0ms
+[] ask finished, delay = 1ms
+[] some work at node 142 current = 142
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 143 current = 143
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 145 current = 145
+[] ask started, delay = 2ms
+[] ask finished, delay = 1ms
+[] some work at node 146 current = 146
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 0ms
+[][getDocComment field Var  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 121, 121, 132)
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 121, 121, 132)
+[] responded, delay = 6ms
+[] done with work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala))
+[] quitting work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 148 current = 148
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 149 current = 149
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 150 current = 150
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 152 current = 152
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 153 current = 153
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 0ms
+[][getDocComment field Var  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 146, 146, 157)
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 146, 146, 157)
+[] responded, delay = 4ms
+[] done with work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala))
+[] quitting work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 155 current = 155
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 156 current = 156
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 157 current = 157
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 2ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 159 current = 159
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 160 current = 160
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 0ms
+[][getDocComment field Var  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 158, 158, 169)
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 158, 158, 169)
+[] responded, delay = 4ms
+[] done with work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala))
+[] quitting work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 162 current = 162
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 163 current = 163
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 164 current = 164
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 3ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 166 current = 166
+[] ask started, delay = 2ms
+[] ask finished, delay = 1ms
+[] some work at node 167 current = 167
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 0ms
+[][getDocComment field Var  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 180, 180, 191)
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 180, 180, 191)
+[] responded, delay = 5ms
+[] done with work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala))
+[] quitting work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 169 current = 169
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 170 current = 170
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 171 current = 171
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 173 current = 173
+[] ask started, delay = 2ms
+[] ask finished, delay = 1ms
+[] some work at node 174 current = 174
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 0ms
+[][getDocComment field Var  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 201, 201, 212)
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 201, 201, 212)
+[] responded, delay = 6ms
+[] done with work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala))
+[] quitting work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 176 current = 176
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 177 current = 177
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 178 current = 178
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 3ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 180 current = 180
+[] ask started, delay = 2ms
+[] ask finished, delay = 0ms
+[] some work at node 181 current = 181
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 0ms
+[][getDocComment field Var  at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 221, 221, 232)
+[] mirror found for field Var : RangePosition(doc/src/Class.scala, 221, 221, 232)
+[] responded, delay = 6ms
+[] done with work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala))
+[] quitting work item: doc comment field Var  in Class.scala with fragments:((field Var ,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 183 current = 183
+[] ask started, delay = 1ms
+[] ask finished, delay = 2ms
+[] some work at node 184 current = 184
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 185 current = 185
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 187 current = 187
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 188 current = 188
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 0ms
+[][getDocComment type AbstracType at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 139, 144, 155)
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 139, 144, 155)
+[] responded, delay = 3ms
+[] done with work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala))
+[] quitting work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 190 current = 190
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 191 current = 191
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 192 current = 192
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 194 current = 194
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 195 current = 195
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 0ms
+[][getDocComment type AbstracType at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 164, 169, 180)
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 164, 169, 180)
+[] responded, delay = 4ms
+[] done with work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala))
+[] quitting work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 197 current = 197
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 198 current = 198
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 199 current = 199
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 201 current = 201
+[] ask started, delay = 2ms
+[] ask finished, delay = 1ms
+[] some work at node 202 current = 202
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 0ms
+[][getDocComment type AbstracType at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 176, 181, 192)
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 176, 181, 192)
+[] responded, delay = 5ms
+[] done with work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala))
+[] quitting work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 204 current = 204
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 205 current = 205
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 206 current = 206
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 15ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 208 current = 208
+[] ask started, delay = 14ms
+[] ask finished, delay = 11ms
+[] some work at node 209 current = 209
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 0ms
+[][getDocComment type AbstracType at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 198, 203, 214)
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 198, 203, 214)
+[] responded, delay = 16ms
+[] done with work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala))
+[] quitting work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 8ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 211 current = 211
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 212 current = 212
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 213 current = 213
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 10ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 215 current = 215
+[] ask started, delay = 6ms
+[] ask finished, delay = 10ms
+[] some work at node 216 current = 216
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 0ms
+[][getDocComment type AbstracType at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 219, 224, 235)
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 219, 224, 235)
+[] responded, delay = 18ms
+[] done with work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala))
+[] quitting work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 218 current = 218
+[] ask started, delay = 1ms
+[] ask finished, delay = 5ms
+[] some work at node 219 current = 219
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 220 current = 220
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 4ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 222 current = 222
+[] ask started, delay = 4ms
+[] ask finished, delay = 7ms
+[] some work at node 223 current = 223
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 0ms
+[][getDocComment type AbstracType at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 239, 244, 255)
+[] mirror found for type AbstracType: RangePosition(doc/src/Class.scala, 239, 244, 255)
+[] responded, delay = 4ms
+[] done with work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala))
+[] quitting work item: doc comment type AbstracType in Class.scala with fragments:((type AbstracType,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 225 current = 225
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 226 current = 226
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 227 current = 227
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 229 current = 229
+[] ask started, delay = 2ms
+[] ask finished, delay = 2ms
+[] some work at node 230 current = 230
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 0ms
+[][getDocComment type TypeAlias at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 158, 163, 181)
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 158, 163, 181)
+[] responded, delay = 4ms
+[] done with work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala))
+[] quitting work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 232 current = 232
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 233 current = 233
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 234 current = 234
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 236 current = 236
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 237 current = 237
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 0ms
+[][getDocComment type TypeAlias at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 183, 188, 206)
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 183, 188, 206)
+[] responded, delay = 3ms
+[] done with work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala))
+[] quitting work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 239 current = 239
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 241 current = 241
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 243 current = 243
+[] ask started, delay = 2ms
+[] ask finished, delay = 0ms
+[] some work at node 244 current = 244
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 0ms
+[][getDocComment type TypeAlias at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 195, 200, 218)
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 195, 200, 218)
+[] responded, delay = 3ms
+[] done with work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala))
+[] quitting work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 246 current = 246
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] some work at node 247 current = 247
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 248 current = 248
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 250 current = 250
+[] ask started, delay = 3ms
+[] ask finished, delay = 0ms
+[] some work at node 251 current = 251
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 0ms
+[][getDocComment type TypeAlias at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 217, 222, 240)
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 217, 222, 240)
+[] responded, delay = 3ms
+[] done with work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala))
+[] quitting work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 253 current = 253
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 255 current = 255
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 257 current = 257
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 258 current = 258
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 0ms
+[][getDocComment type TypeAlias at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 238, 243, 261)
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 238, 243, 261)
+[] responded, delay = 3ms
+[] done with work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala))
+[] quitting work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 260 current = 260
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 261 current = 261
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 262 current = 262
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 264 current = 264
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 265 current = 265
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 0ms
+[][getDocComment type TypeAlias at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 258, 263, 281)
+[] mirror found for type TypeAlias: RangePosition(doc/src/Class.scala, 258, 263, 281)
+[] responded, delay = 3ms
+[] done with work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala))
+[] quitting work item: doc comment type TypeAlias in Class.scala with fragments:((type TypeAlias,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 267 current = 267
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 269 current = 269
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 271 current = 271
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 272 current = 272
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[][getDocComment class Trait at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 184, 190, 195)
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 184, 190, 195)
+[] responded, delay = 3ms
+[] done with work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala))
+[] quitting work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 274 current = 274
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 276 current = 276
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 278 current = 278
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 279 current = 279
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[][getDocComment class Trait at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 209, 215, 220)
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 209, 215, 220)
+[] responded, delay = 3ms
+[] done with work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala))
+[] quitting work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 281 current = 281
+[] ask started, delay = 2ms
+[] ask finished, delay = 0ms
+[] some work at node 282 current = 282
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 283 current = 283
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 285 current = 285
+[] ask started, delay = 2ms
+[] ask finished, delay = 1ms
+[] some work at node 286 current = 286
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[][getDocComment class Trait at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 221, 227, 232)
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 221, 227, 232)
+[] responded, delay = 3ms
+[] done with work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala))
+[] quitting work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 288 current = 288
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 290 current = 290
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 292 current = 292
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 293 current = 293
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[][getDocComment class Trait at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 243, 249, 254)
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 243, 249, 254)
+[] responded, delay = 3ms
+[] done with work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala))
+[] quitting work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 295 current = 295
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] some work at node 296 current = 296
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 297 current = 297
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 299 current = 299
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 300 current = 300
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[][getDocComment class Trait at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 264, 270, 275)
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 264, 270, 275)
+[] responded, delay = 3ms
+[] done with work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala))
+[] quitting work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 302 current = 302
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 304 current = 304
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 306 current = 306
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 307 current = 307
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[][getDocComment class Trait at Class.scala, site class Class]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 284, 290, 295)
+[] mirror found for class Trait: RangePosition(doc/src/Class.scala, 284, 290, 295)
+[] responded, delay = 3ms
+[] done with work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala))
+[] quitting work item: doc comment class Trait in Class.scala with fragments:((class Trait,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 309 current = 309
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 311 current = 311
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 313 current = 313
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 314 current = 314
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[][getDocComment trait InnerClass at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 198, 204, 214)
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 198, 204, 214)
+[] responded, delay = 2ms
+[] done with work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala))
+[] quitting work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 316 current = 316
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] some work at node 318 current = 318
+[] picked up work item at source-doc/src/Class.scala,line-10,offset=198: reload List(Class.scala), delay = 1ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 319 current = 319
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 321 current = 321
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 322 current = 322
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[][getDocComment trait InnerClass at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 223, 229, 239)
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 223, 229, 239)
+[] responded, delay = 2ms
+[] done with work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala))
+[] quitting work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 324 current = 324
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 326 current = 326
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 328 current = 328
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 329 current = 329
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[][getDocComment trait InnerClass at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 235, 241, 251)
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 235, 241, 251)
+[] responded, delay = 1ms
+[] done with work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala))
+[] quitting work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 331 current = 331
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] some work at node 333 current = 333
+[] picked up work item at source-doc/src/Class.scala,line-12,offset=235: reload List(Class.scala), delay = 1ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 334 current = 334
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 336 current = 336
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 337 current = 337
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[][getDocComment trait InnerClass at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 257, 263, 273)
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 257, 263, 273)
+[] responded, delay = 1ms
+[] done with work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala))
+[] quitting work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 339 current = 339
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] some work at node 341 current = 341
+[] picked up work item at source-doc/src/Class.scala,line-13,offset=257: reload List(Class.scala), delay = 1ms
+[][reload: List(Class.scala)]
+[] responded, delay = 0ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 342 current = 342
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 1ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 344 current = 344
+[] ask started, delay = 1ms
+[] ask finished, delay = 0ms
+[] some work at node 345 current = 345
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[][getDocComment trait InnerClass at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 278, 284, 294)
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 278, 284, 294)
+[] responded, delay = 2ms
+[] done with work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala))
+[] quitting work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 347 current = 347
+[] ask started, delay = 0ms
+[] ask finished, delay = 1ms
+[] some work at node 348 current = 348
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): reload List(Class.scala), delay = 0ms
+[][reload: List(Class.scala)]
+[] responded, delay = 1ms
+[] quitting work item: reload List(Class.scala), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 349 current = 349
+[] picked up work item at RangePosition(doc/src/Class.scala, 25, 29, 37): getParsedEntered Class.scala, keepLoaded = true, delay = 1ms
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] responded, delay = 2ms
+[] done with work item: getParsedEntered Class.scala, keepLoaded = true
+[] quitting work item: getParsedEntered Class.scala, keepLoaded = true, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 351 current = 351
+[] ask started, delay = 2ms
+[] ask finished, delay = 0ms
+[] some work at node 352 current = 352
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 0ms
+[][getDocComment trait InnerClass at Class.scala, site package <empty>]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 298, 304, 314)
+[] mirror found for trait InnerClass: RangePosition(doc/src/Class.scala, 298, 304, 314)
+[] responded, delay = 3ms
+[] done with work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala))
+[] quitting work item: doc comment trait InnerClass in Class.scala with fragments:((trait InnerClass,Class.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 354 current = 354
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 356 current = 356
+[] ask started, delay = 1ms
+[] ask finished, delay = 1ms
+[] some work at node 357 current = 357
+[] picked up work item at source-doc/src/Class.scala,line-15,offset=298: doc comment class Derived in Derived.scala with fragments:((trait Base,Base.scala),(class Derived,Derived.scala)), delay = 0ms
+[][getDocComment class Derived at Derived.scala, site package p]
+[] mirror found for trait Base: RangePosition(doc/src/p/Base.scala, 68, 74, 148)
+[] mirror found for class Derived: RangePosition(doc/src/p/Derived.scala, 62, 68, 107)
+[] mirror found for class Derived: RangePosition(doc/src/p/Derived.scala, 62, 68, 107)
+[] responded, delay = 2ms
+[] done with work item: doc comment class Derived in Derived.scala with fragments:((trait Base,Base.scala),(class Derived,Derived.scala))
+[] quitting work item: doc comment class Derived in Derived.scala with fragments:((trait Base,Base.scala),(class Derived,Derived.scala)), delay = 1ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 358 current = 358
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
+[] [no position] :[running phase packageobjects on Class.scala]
+[] type checking: Class.scala
+[] [no position] :[running phase typer on Class.scala]
+[] some work at node 360 current = 360
+[] ask started, delay = 2ms
+[] ask finished, delay = 5ms
+[] some work at node 361 current = 361
+[] picked up work item at RangePosition(doc/src/Class.scala, 0, 0, 0): doc comment method foo in Derived.scala with fragments:((method foo,Base.scala),(method foo,Derived.scala)), delay = 0ms
+[][getDocComment method foo at Derived.scala, site class Derived]
+[] mirror found for method foo: RangePosition(doc/src/p/Base.scala, 131, 135, 146)
+[] mirror found for method foo: RangePosition(doc/src/p/Derived.scala, 93, 97, 105)
+[] mirror found for method foo: RangePosition(doc/src/p/Derived.scala, 93, 97, 105)
+[] responded, delay = 0ms
+[] done with work item: doc comment method foo in Derived.scala with fragments:((method foo,Base.scala),(method foo,Derived.scala))
+[] quitting work item: doc comment method foo in Derived.scala with fragments:((method foo,Base.scala),(method foo,Derived.scala)), delay = 0ms
+[] fresh run req caught, starting new pass
+[][Starting new presentation compiler type checking pass]
+[] parsing: Class.scala
+[] [no position] :[running phase parser on Class.scala]
+[] some work at node 362 current = 362
+[] ask started, delay = 0ms
+[] ask finished, delay = 0ms
+[] [no position] :[running phase namer on Class.scala]
