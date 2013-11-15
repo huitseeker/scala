@@ -405,7 +405,8 @@ class Global(settings: Settings, _reporter: Reporter, projectName: String = "") 
    *  @param pos   The position of the tree if polling while typechecking, NoPosition otherwise
    *
    */
-  private[interactive] def pollForWork(pos: Position) {
+  @tailrec
+  private def pollForWork_aux(pos: Position) {
     if (!interruptsEnabled) return
     if (pos == NoPosition || nodesSeen % yieldPeriod == 0)
       Thread.`yield`()
@@ -426,7 +427,7 @@ class Global(settings: Settings, _reporter: Reporter, projectName: String = "") 
     if (nodesSeen >= moreWorkAtNode) {
 
       logreplay("asked", scheduler.pollInterrupt()) match {
-        case Some(ir) =>
+        case Some(ir) => {
           try {
             interruptsEnabled = false
             debugLog("ask started"+timeStep)
@@ -435,59 +436,61 @@ class Global(settings: Settings, _reporter: Reporter, projectName: String = "") 
             debugLog("ask finished"+timeStep)
             interruptsEnabled = true
           }
-          pollForWork(pos)
+          pollForWork_aux(pos)
+        }
         case _ =>
-      }
+          if (logreplay("cancelled", pendingResponse.isCancelled)) {
+            throw CancelException
+          }
+          else
+            logreplay("exception thrown", scheduler.pollThrowable()) match {
+              case Some(ex: FreshRunReq) =>
+                newTyperRun()
+              minRunId = currentRunId
+              demandNewCompilerRun()
 
-      if (logreplay("cancelled", pendingResponse.isCancelled)) {
-        throw CancelException
-      }
+              case Some(ShutdownReq) =>
+                scheduler.synchronized { // lock the work queue so no more items are posted while we clean it up
+                  val units = scheduler.dequeueAll {
+                    case item: WorkItem => Some(item.raiseMissing())
+                    case _ => Some(())
+                  }
 
-      logreplay("exception thrown", scheduler.pollThrowable()) match {
-        case Some(ex: FreshRunReq) =>
-          newTyperRun()
-          minRunId = currentRunId
-          demandNewCompilerRun()
+                  // don't forget to service interrupt requests
+                  scheduler.dequeueAllInterrupts(_.execute())
 
-        case Some(ShutdownReq) =>
-          scheduler.synchronized { // lock the work queue so no more items are posted while we clean it up
-            val units = scheduler.dequeueAll {
-              case item: WorkItem => Some(item.raiseMissing())
-              case _ => Some(())
+                  debugLog("ShutdownReq: cleaning work queue (%d items)".format(units.size))
+                  debugLog("Cleanup up responses (%d loadedType pending, %d parsedEntered pending)"
+                           .format(waitLoadedTypeResponses.size, getParsedEnteredResponses.size))
+                  checkNoResponsesOutstanding()
+
+                  log.flush()
+                  scheduler = new NoWorkScheduler
+                  throw ShutdownReq
+                }
+
+              case Some(ex: Throwable) => log.flush(); throw ex
+              case _ => {
+                lastWasReload = false
+
+                logreplay("workitem", scheduler.nextWorkItem()) match {
+                  case Some(action) =>
+                    try {
+                      debugLog("picked up work item at "+pos+": "+action+timeStep)
+                      action()
+                      debugLog("done with work item: "+action)
+                    } finally {
+                      debugLog("quitting work item: "+action+timeStep)
+                    }
+                  case None =>
+                }
+              }
             }
-
-            // don't forget to service interrupt requests
-            scheduler.dequeueAllInterrupts(_.execute())
-
-            debugLog("ShutdownReq: cleaning work queue (%d items)".format(units.size))
-            debugLog("Cleanup up responses (%d loadedType pending, %d parsedEntered pending)"
-                .format(waitLoadedTypeResponses.size, getParsedEnteredResponses.size))
-            checkNoResponsesOutstanding()
-
-            log.flush()
-            scheduler = new NoWorkScheduler
-            throw ShutdownReq
-          }
-
-        case Some(ex: Throwable) => log.flush(); throw ex
-        case _ =>
-      }
-
-      lastWasReload = false
-
-      logreplay("workitem", scheduler.nextWorkItem()) match {
-        case Some(action) =>
-          try {
-            debugLog("picked up work item at "+pos+": "+action+timeStep)
-            action()
-            debugLog("done with work item: "+action)
-          } finally {
-            debugLog("quitting work item: "+action+timeStep)
-          }
-        case None =>
       }
     }
   }
+
+  private[interactive] def pollForWork(pos:Position) = pollForWork_aux(pos)
 
   protected def checkForMoreWork(pos: Position) {
     val typerRun = currentTyperRun
