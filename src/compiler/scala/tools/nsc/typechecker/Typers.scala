@@ -15,6 +15,7 @@ package typechecker
 
 import scala.collection.{ mutable, immutable }
 import scala.reflect.internal.util.{ BatchSourceFile, Statistics, shortClassOfInstance }
+import settings.ScalaVersion
 import mutable.ListBuffer
 import symtab.Flags._
 import Mode._
@@ -1803,7 +1804,7 @@ trait Typers extends Adaptations with Tags with TypersTracking with PatternTyper
 
       val impl2  = finishMethodSynthesis(impl1, clazz, context)
 
-      if (mdef.symbol == PredefModule)
+      if (settings.source.value >= ScalaVersion("2.11.0")  && mdef.symbol == PredefModule)
         ensurePredefParentsAreInSameSourceFile(impl2)
 
       // SI-5954. On second compile of a companion class contained in a package object we end up
