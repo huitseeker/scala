@@ -14,6 +14,7 @@ package typechecker
 
 import scala.annotation.tailrec
 import scala.collection.{ mutable, immutable }
+import settings.ScalaVersion
 import mutable.{ LinkedHashMap, ListBuffer }
 import scala.util.matching.Regex
 import symtab.Flags._
@@ -1365,7 +1366,7 @@ trait Implicits {
           maybeInvalidConversionError("the result type of an implicit conversion must be more specific than AnyRef")
           result = SearchFailure
         }
-        else if (isInvalidConversionSource(pt)) {
+        else if (settings.source.value >= ScalaVersion("2.11.0") && isInvalidConversionSource(pt)) {
           maybeInvalidConversionError("an expression of type Null is ineligible for implicit conversion")
           result = SearchFailure
         }
