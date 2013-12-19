@@ -72,6 +72,7 @@ trait ScalaSettings extends AbsScalaSettings
   val d             = OutputSetting     (outputDirs, ".")
   val nospecialization = BooleanSetting    ("-no-specialization", "Ignore @specialize annotations.")
   val language      = MultiStringSetting("-language", "feature", "Enable one or more language features.")
+  val source        = ScalaVersionSetting("-source", "version", "Treat compiler input as Scala source for the specified version", ScalaVersion("2.11"))
 
   /**
    * -X "Advanced" settings
