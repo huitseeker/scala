@@ -73,9 +73,16 @@ trait Variances {
       def relativeVariance(tvar: Symbol): Variance = {
         def nextVariance(sym: Symbol, v: Variance): Variance = (
           if (shouldFlip(sym, tvar)) v.flip
-          else if (isLocalOnly(sym)) Bivariant
-          else if (sym.isAliasType) Invariant
-          else v
+          else if (settings.YrelaxAliasVarianceChecks) {
+            if (!sym.isAliasType) v
+            else if (sym.isOverridingSymbol) Invariant
+            else Bivariant
+          }
+          else {
+            if (isLocalOnly(sym)) Bivariant
+            else if (sym.isAliasType) Invariant
+            else v
+          }
         )
         def loop(sym: Symbol, v: Variance): Variance = (
           if (sym == tvar.owner || v.isBivariant) v
